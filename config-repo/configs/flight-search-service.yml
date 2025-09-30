@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+
+spring:
+  datasource:
+    # Overridden in Docker by env vars, but kept here for local dev
+    url: jdbc:postgresql://localhost:5432/flights
+    username: flight
+    password: flight
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
