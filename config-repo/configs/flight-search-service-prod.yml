@@ -1,8 +1,0 @@
-spring:
-  profiles: prod
-
-logging:
-  level:
-    root: INFO
-  pattern:
-    console: "%d{ISO8601} %-5level [%thread] %logger - %msg%n"
