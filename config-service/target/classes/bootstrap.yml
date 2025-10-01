@@ -10,4 +10,4 @@ spring:
     config:
       server:
         native:
-          search-locations:
+          search-locations: file:///Users/dasiel/Documents/Spring Cloud/CODE/config-server-local-bundle/config-repo/configs

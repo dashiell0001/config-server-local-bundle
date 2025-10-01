@@ -6,9 +6,9 @@ This is a Spring Cloud Config Server for centralizing configuration.
 
 - Java 17 + Maven required.
 
-```bash
+```
 mvn spring-boot:run
-# Server on http://localhost:8888
+# Server on http://localhost:8089[PRICING_SERVICE_SETUP.md](../../../../../Downloads/PRICING_SERVICE_SETUP.md)
 ```
 
 ## Backends
@@ -26,7 +26,7 @@ Two options are pre-wired (choose one):
 ## Test URLs
 
 ```
-http://localhost:8888/flight-search-service/default
-http://localhost:8888/flight-search-service/dev
-http://localhost:8888/flight-search-service/prod
+http://localhost:8089/flight-search-service/default
+http://localhost:8089/flight-search-service/dev
+http://localhost:8089/flight-search-service/prod
 ```
